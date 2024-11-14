@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressure convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pressure convertor</h1>
+        <p id="description"> The app converts pressure in different scales. The scales
+            are pascal (pa), bar (unit mm Hg), atmosheric pressure (atm) and
+            pound per inch square (psi).</p>
+<div class="pressure-container">
+    <label for="pa">pa</label>
+    <input onchange="cal(event)" type="number" name="pa" id="pa" placeholder="Enter value in pa" class="input">
+</div>   
+<div class="pressure-container">
+    <label for="bar">bar</label>
+    <input onchange="cal(event)" type="number" name="bar" id="bar" placeholder="Enter value in bar" class="input">  
+</div>
+<div class="pressure-container">
+    <label for="atm">atm</label>
+    <input onchange="cal(event)" type="number" name="atm" id="atm" placeholder="Enter value in atm" class="input"> 
+</div>
+<div class="pressure-container">
+    <label for="psi">psi</label>
+    <input onchange="cal(event)" type="number" name="psi" id="psi" placeholder="Enter value in psi" class="input"> 
+</div>
+    
+</div>
+<script src="app.js"></script>
+</body>
+</html>
